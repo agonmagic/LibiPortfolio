@@ -417,3 +417,398 @@ body {
     margin: 30px 0;
   }
 }
+@media screen and (max-width: 1439px) {
+  .box {
+    background-color: #181818;
+    width: 90%;
+    margin: 85px auto;
+    height: 746px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .box h1 {
+    display: inline-block;
+    font-size: 120px;
+    font-weight: 600;
+  }
+  .box .line1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .box .line1 img {
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 20px;
+  }
+  .website-text {
+    width: 90%;
+    text-align: left;
+    margin: 50px auto 0 auto;
+    color: #181818;
+  }
+  .website-text .title {
+    font-size: 64px;
+    margin-bottom: 70px;
+    font-weight: 600;
+  }
+  .website-text .subtitle {
+    font-size: 34px;
+  }
+  .website-text .description {
+    font-weight: 300;
+    max-width: 462px;
+    opacity: 0.6;
+    line-height: 26.4px;
+  }
+  .webboxes1 {
+    width: 90%;
+    padding: 50px 0 130px 0;
+    margin: 50 auto 130px auto;
+    display: grid;
+    grid-template-rows: 305px 305px 920px 699px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    grid-template-areas: "left right" "left right" "middle middle" "bottom bottom";
+  }
+  .webboxes1 .left {
+    background-color: black;
+    grid-area: left;
+  }
+  .webboxes1 .right {
+    background-color: #181818;
+    grid-area: right;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: left;
+  }
+  .webboxes1 .right .textbox {
+    display: inline-block;
+    margin: 0 0 85px -60px;
+  }
+  .webboxes1 .right .textbox .gray {
+    color: white;
+    opacity: 0.2;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .webboxes1 .right .textbox .bottombrand {
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  .webboxes1 .right .textbox .bottombrand .brand {
+    font-size: 140px;
+    font-weight: 500;
+  }
+  .webboxes1 .right .textbox .bottombrand svg {
+    font-size: 110px;
+    height: 1em;
+    margin-left: 3px;
+  }
+  .webboxes1 .right1 {
+    grid-area: right;
+    background-color: #e7f3fe;
+  }
+  .webboxes1 .right2 {
+    grid-area: right;
+    background-color: #e7f3fe;
+  }
+  .webboxes1 .right3 {
+    grid-area: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 4px solid #f5f5f5;
+  }
+  .webboxes1 .right3 img {
+    margin-top: 40px;
+  }
+  .webboxes1 .right3 .price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .webboxes1 .right3 .price h2 {
+    font-size: 85px;
+    font-weight: 500;
+  }
+  .webboxes1 .right3 .price h3 {
+    font-size: 33px;
+    font-weight: 500;
+    opacity: 0.3;
+  }
+  .webboxes1 .middle {
+    grid-area: middle;
+  }
+  .webboxes1 .bottom {
+    background-color: #f07624;
+    grid-area: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .webboxes1 .bottom img {
+    width: 27%;
+  }
+  .webboxes1 .bottom .marginbottom {
+    margin-bottom: 30px;
+  }
+  .webboxes1 .bottom .margintop {
+    margin: 30px 13px 0 13px;
+  }
+  .webboxes1 #lodresso {
+    background: url(../images/PNG/LodressoBG.png) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .webboxes1 #lodresso img {
+    width: 70%;
+  }
+  .webboxes1 #lodressolaptop {
+    background: url(../images/PNG/LodressoLaptop.png) center/cover no-repeat;
+  }
+  .webboxes1 #pteralogo {
+    background: url(../images/PNG/pterabg.png) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .webboxes1 #pteralogo img {
+    width: 67%;
+    opacity: 0.76;
+    mix-blend-mode: color-burn;
+  }
+  .webboxes1 #couch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8e5e0;
+    position: relative;
+  }
+  .webboxes1 #couch img {
+    width: 90%;
+  }
+  .webboxes1 #couch .couchtext {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+  }
+  .webboxes1 #couch .couchtext a {
+    padding: 38px 75px;
+    background-color: #151515;
+    color: #E8E5E0;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  .webboxes1 #couch .couchtext p {
+    font-size: 30px;
+    line-height: 33px;
+    font-weight: 500;
+    margin: 1em 0 2em 0;
+  }
+  .webboxes1 #pteralaptop {
+    background: url(../images/PNG/RubberLaptopPtera.png) center/cover no-repeat;
+  }
+  .webboxes1 #wall {
+    background: url(../images/PNG/Yellwall.png) center/cover no-repeat;
+  }
+  .webboxes1 #yelllaptop {
+    background: url(../images/PNG/YellLaptop.png) center/cover no-repeat;
+  }
+  .webboxes2 {
+    width: 90%;
+    padding: 50px 0 130px 0;
+    margin: 50px auto 130px auto;
+    display: grid;
+    grid-template-rows: 305px 305px 920px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    grid-template-areas: "left right1" "left right2" "middle middle";
+  }
+  .webboxes2 .left {
+    background-color: #72C7FF;
+    grid-area: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .webboxes2 .left #bg {
+    width: 110%;
+    height: 110%;
+    position: relative;
+    background-size: cover;
+    margin-right: -10px;
+  }
+  .webboxes2 .left #insp {
+    position: absolute;
+    width: 24%;
+    height: auto;
+  }
+  .webboxes2 .right1 {
+    grid-area: right1;
+    background-color: #e7f3fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 58px;
+  }
+  .webboxes2 .right2 {
+    grid-area: right2;
+    background-color: #e7f3fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 58px;
+  }
+  .webboxes2 .inspicon {
+    width: 108px;
+  }
+  .webboxes2 .righttext {
+    margin: 0 82px 0 28px;
+  }
+  .webboxes2 .righttext .boxtitle {
+    font-size: 34px;
+    font-weight: 500;
+    color: #2D2D2D;
+    line-height: 1.3em;
+  }
+  .webboxes2 .righttext .boxsubtitle {
+    font-size: 20px;
+    line-height: 32px;
+    color: #8C92A0;
+    font-weight: 300;
+  }
+  .webboxes2 .middle {
+    background: url(../images/PNG/InspiritolLaptop.png) center/cover no-repeat;
+    grid-area: middle;
+  }
+  .blue {
+    background-color: #e7f3fe;
+  }
+  .webboxes3 {
+    width: 90%;
+    padding: 50px auto 130px auto;
+    margin: 50 0 130px 0;
+    display: grid;
+    grid-template-rows: 305px 305px 920px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    grid-template-areas: "left right" "left right" "middle middle";
+  }
+  .webboxes3 .left {
+    grid-area: left;
+  }
+  .webboxes3 .right {
+    grid-area: right;
+  }
+  .webboxes3 .middle {
+    grid-area: middle;
+  }
+  .webboxes3 .bottom {
+    grid-area: bottom;
+  }
+  .webboxes3 #ipkologo {
+    background: url(../images/PNG/IpkoLogo.png) center/cover no-repeat;
+  }
+  .webboxes3 #ipkoappicon {
+    background: url(../images/PNG/IpkoAppIcon.png) center/cover no-repeat;
+  }
+  .webboxes3 #ipkomockup {
+    background: url(../images/PNG/IpkoMockup.png) center/contain no-repeat;
+  }
+  .webboxes3 #chancelogo {
+    background: url(../images/PNG/ChanceLogo.png) center/cover no-repeat;
+  }
+  .webboxes3 #chanceappicon {
+    background: url(../images/PNG/ChanceAppIcon.png) center/cover no-repeat;
+  }
+  .webboxes3 #chancewall {
+    background: url(../images/PNG/ChanceWall.png) center/contain no-repeat;
+  }
+  .more {
+    width: 1270px;
+    padding: 50px 0 130px 0;
+    margin: 50 0 130px 0;
+    display: grid;
+    grid-template-rows: repeat(2, 420px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  .more #readfeed {
+    background: url(../images/PNG/ReadFeed.png) center/cover no-repeat;
+  }
+  .more #fanpic {
+    background: url(../images/PNG/Fanpic.png) center/cover no-repeat;
+  }
+  .more #ip {
+    background: url(../images/PNG/IP.png) center/cover no-repeat;
+  }
+  .more #islamic {
+    background: url(../images/PNG/IslamicRelief.png) center/cover no-repeat;
+  }
+  .more #duka {
+    background: url(../images/PNG/Dukagjini.png) center/cover no-repeat;
+  }
+  .more #inhabit {
+    background: url(../images/PNG/Inhabit.png) center/cover no-repeat;
+  }
+  footer {
+    background-color: #181818;
+    width: 90%;
+    height: 428px;
+    margin-bottom: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 110px;
+    color: white;
+  }
+  footer .leftside span {
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+  footer .leftside .touch {
+    font-size: 72px;
+    font-weight: 500;
+  }
+  footer .rightside {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .rightside .smalltitle {
+    opacity: 0.4;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 37px;
+    margin-bottom: 5px;
+  }
+  footer .rightside .info {
+    font-weight: 500;
+    font-size: 27px;
+  }
+  footer .rightside .info a {
+    color: white;
+    text-decoration: none;
+  }
+  footer .rightside .line {
+    border-top: 1px solid #DEDEE9;
+    width: 100%;
+    margin: 30px 0;
+  }
+}
